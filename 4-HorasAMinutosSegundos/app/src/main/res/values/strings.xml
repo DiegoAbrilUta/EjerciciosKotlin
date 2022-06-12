@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HoraAMinutosSegundos</string>
+    <string name="txtHora_hint_hora">Ingrese Hora</string>
+    <string name="btnHora_text_resultado">CONVERTIR</string>
+</resources>

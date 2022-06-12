@@ -1,0 +1,28 @@
+//Boton redondeado
+ android:backgroundTint="@color/cardview_dark_background"
+ app:cornerRadius="15dp"
+//Icono
+        supportActionBar?.setDisplayShowHomeEnabled(true);
+        supportActionBar?.setIcon(R.mipmap.ic_launcher_round);
+
+1. Hallar el area de un triangulo
+A=b*a/2
+
+2. Area Circulo
+A=3.1416*(radio*radio)
+
+3. Calcular iva
+iva=14%
+impuesto=precio*0.14
+precioFinal=precio-impuesto
+
+4. De horas a minutos y segundos
+minutos=hora*60
+segundos=minutos*60
+
+5. numeros Entre rango
+
+6. SumaNCuadrados
+
+7. Calcular sueldo quincenal
+ Quincena=horas*salarioxhoras

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contenedorIVA"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="50dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="50dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    tools:context=".CalcularImpuesto">
+
+    <TextView
+        android:id="@+id/lblTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Producto -Impuesto-"
+        android:textColor="@color/teal_700"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txtNombreProducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="30dp"
+        android:hint="@string/txtProducto_hint_nombreprod"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtCantidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:hint="@string/txtCantidad_hint_cantidad"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/txtPrecio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:hint="@string/txtPrecio_hint_precio"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        app:cornerRadius="15dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="@string/btnResuktado_text_resultado" />
+
+    <TextView
+        android:id="@+id/lbltituloResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Resultado"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lblListaHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center|center_horizontal|left|center_vertical"
+        android:textColor="@color/design_default_color_on_secondary" />
+
+    <TextView
+        android:id="@+id/lblResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+
+        android:gravity="center|center_horizontal|left|center_vertical" />
+
+    <TextView
+        android:id="@+id/lblAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textSize="18sp" />
+</LinearLayout>

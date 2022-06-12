@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    tools:context=".SalarioQuincenal">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Salario"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txtHoras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:hint="@string/txtHoras_hint_horas"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/txtSalarioxHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:hint="@string/txtSueldoxHora_hint__sueldoxhora"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/btnCalcularQuincena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        app:cornerRadius="15dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="@string/btnQuincena_text_quincena" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Total"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"
+        android:textColor="@color/design_default_color_error" />
+
+    <TextView
+        android:id="@+id/lblTotalSalario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:gravity="center|center_horizontal|center_vertical" />
+
+    <TextView
+        android:id="@+id/lblAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textSize="18sp"
+        android:gravity="center|center_horizontal|center_vertical" />
+</LinearLayout>

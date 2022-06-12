@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    tools:context=".RangoNumeros">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Rando de Valores"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/teal_700"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/txtRangoInicial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:hint="@string/txtInicio_hint_inicio"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/txtRangoFinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:hint="@string/txtFinal_hint_final"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/btnRangoDeNumeros"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="@string/btnRango_text_rango"
+        app:cornerRadius="15dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:text="Números"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/lblValores"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/lblContador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/lblAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:textSize="16sp" />
+
+</LinearLayout>

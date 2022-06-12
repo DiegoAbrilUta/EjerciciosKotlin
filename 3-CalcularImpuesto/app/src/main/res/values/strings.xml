@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CalculoIVA</string>
+    <string name="txtProducto_hint_nombreprod">-Producto-</string>
+    <string name="txtCantidad_hint_cantidad">-Cantidad-</string>
+    <string name="txtPrecio_hint_precio">-Precio-</string>
+
+    <string name="btnResuktado_text_resultado">Calcular</string>
+
+</resources>
